@@ -2,7 +2,7 @@
 
 /*  7 Types of primitive data type
  String , Number, null, undefined, boolean,symbol,string, BigInt.
-
+*/
 
 const score = 100
 const scoreValue = 200.34
@@ -48,7 +48,7 @@ let anotherName = myYoutubename;
 anotherName = "chaiaurcode@gmail.com"
 
 console.log(myYoutubename); //ankitapatel@gmail.com
-console.log(anotherName);  //ahaiaurcode@gmail.com */
+console.log(anotherName);  //ahaiaurcode@gmail.com 
 //yha pr value copy hota hai because ye primitive (Stack me data store krata hai )hai aur isme value copy hota hai
 
 let userOne = {
@@ -61,4 +61,3 @@ console.log(userTwo.email) //akaflak@google.com
 console.log(userOne.email)  //akaflak@google.com
 
 //Value same aayi hai because yha pr Heap me value save ho rha hai aur Heap value ko Reference deta hai naki copy krta hai
-
