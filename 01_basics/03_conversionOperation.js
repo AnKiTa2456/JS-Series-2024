@@ -1,4 +1,4 @@
-/*
+
 let score = "33"; // string
 console.log(typeof score)
 console.log(typeof score)
@@ -45,9 +45,9 @@ console.log(sc4)
 console.log(typeof valueInNumber4)
 console.log(valueInNumber4)
 // NaN
-*/
 
-/*
+
+
 let isLoggedIn = undefined
 let BooleanIsLoggedIn = Boolean(isLoggedIn);
 console.log(BooleanIsLoggedIn);
@@ -56,10 +56,14 @@ console.log(BooleanIsLoggedIn);
 // "Ankita" ->true
 // 1 -> true   ,    0 -> false
 
-*/
+console.log(+true)
+console.log(+false)
 
 let someNumber = 77
 let someNumberInString = String(someNumber)
 console.log(someNumber)
 console.log(typeof someNumberInString)
 console.log(someNumberInString)
+
+//string 
+// 77
