@@ -1,4 +1,4 @@
-/* //singleton object 
+ //singleton object 
 const tinderUser = new Object()
 
 
@@ -54,13 +54,13 @@ arraysObjects[1].age;
 console.log(Object.keys(tinderUser));
 console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
-/* 
+
 [ 'id', 'name', 'isLoggedIn' ]
 [ '123fg', 'ankita', false ]
 [ [ 'id', '123fg' ], [ 'name', 'ankita' ], [ 'isLoggedIn', false ] ]    
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn')); // true
-console.log(tinderUser.hasOwnProperty('isLogged')); //false */
+console.log(tinderUser.hasOwnProperty('isLogged')); //false 
 
 
 //Destructuring of Object
