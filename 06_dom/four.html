@@ -14,7 +14,53 @@
     </ul>
 </body>
 <script>
-   
+    function addLaunguage(langName) {
+        const li = document.createElement('li')
+        li.innerHTML = ` ${langName}`
+        document.querySelector('.language').appendChild(li)
+    }
+
+    addLaunguage("JAVA")
+    addLaunguage("typeScript")
+
+
+    function addOPptiLaung(langName) {
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+    }
+
+    addOPptiLaung('golang')
+
+    //Edit
+
+    const secondLang = document.querySelector("li:nth-child(2)")
+    //secondLang.innerHTML = "MOKO"
+    const newLi = document.createElement('li')
+    newLi.textContent = "Mara name Ankita hai"
+    secondLang.replaceWith(newLi);
+
+    const removeTwo = document.querySelector("li:nth-child(3)")
+    //document.innerHTML = "kuhu kuhu";
+    const changeLi = document.createElement('li')
+    changeLi.textContent = "kuhu"
+    removeTwo.replaceWith(changeLi);
+
+    // Edit
+    const thirdLung = document.querySelector('li:nth-child(1)')
+    const newLi3 = document.createElement('li')
+    newLi3.textContent = "Ankita"
+    thirdLung.replaceWith(newLi3)
+
+    const secondLanguge = document.querySelector('li:nth-child(0)')
+    firstLaung = '<li>Tututut tanatana</li>'
+
+    //Remove
+
+    const lastLaung = document.querySelector('li:last-child')
+    lastLaung.remove();       //Ankita
+    //mara name Ankita hai
+    //kuhu
 </script>
 
 </html>
