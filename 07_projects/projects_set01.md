@@ -78,7 +78,8 @@ form.addEventListener('submit', function (e) {
 
 ```
 ## project 3
-```javascrconst clock = document.getElementById('clock');
+```javascript
+const clock = document.getElementById('clock');
 // const clock = document.querySelector('#clock')
 
 setInterval(function () {
